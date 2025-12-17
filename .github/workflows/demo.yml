@@ -1,0 +1,13 @@
+name: ello World 
+
+on:
+  push:
+     branches:[main]
+ 
+jobs:
+   demo:
+     run-on:ubuntu-latest
+	 
+	   steps:
+	      - name:Greeting
+		    run:echo "Hello World"
